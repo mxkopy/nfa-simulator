@@ -3,7 +3,7 @@ Simulates an NFA with epsilon-transitions. A basic regular expression matcher (o
 
 To run the code, run `make && ./nfa $regex $input`. 
 
-However, if your regex is .*, make sure you quote it, since bash will instead give you the first item in your directory starting with '.'. 
+However, if your regex is .*, make sure you quote it, since bash will instead give you the first item in your directory starting with ".". 
 
 # Further Reading
 I think this code is a pretty good instance of [Savitch's theorem](https://en.wikipedia.org/wiki/Savitch%27s_theorem) for finite automata. 
